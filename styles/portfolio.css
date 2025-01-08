@@ -18,6 +18,9 @@
 .text-center{
     text-align: center;
 }
+.text-16{
+    font-size: 1rem;
+}
 .Dark-2{
     color: #474747;
 }
@@ -41,6 +44,12 @@
     font-weight: bold;
     text-align: center;
 }
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+}
 .btn-primary{
     background-color: #FD6E0A;
     color: white;
@@ -49,6 +58,7 @@
     font-weight: 700;
     font-size: 20px;
     border: none;
+    cursor: pointer;
 }
 
 /* Header Styles  */
@@ -191,4 +201,33 @@ nav li a {
     font-size: 1rem;
     font-weight: 400;
     color: var(--Dark-3);
+}
+
+/* Footer styles */
+
+footer{
+    display: flex;
+    gap: 110px;
+    padding: 130px 230px ;
+}
+.footer-icons{
+    display: flex;
+    gap: 1rem;
+}
+.footer-column , .footer-column form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footer-column form input[type="text"] , .footer-column form input[type="email"] {
+    width: 460px;
+    font-size: 20px;
+    border: none;
+    padding: 18px 0 18px 30px;
+}
+.footer-column form .massage{
+    width: 460px;
+    font-size: 20px;
+    border: none;
+    padding: 18px 0 18px 30px;
 }
